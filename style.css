@@ -9,7 +9,7 @@ body {
   
   /* Navbar Styles */
   nav {
-    background: linear-gradient(to right, #00F5D4, #0077FF); /* Neon Teal to Electric Blue */
+    background: linear-gradient(to right,  #5eead4, #93c5fd);
     padding: 1rem;
   }
   
@@ -30,107 +30,54 @@ body {
     color: #FFB703; /* Warm Yellow */
     transition: color 0.3s;
   }
-  
-  /* Hero Section */
-  section.bg-gradient-to-r {
-    background: linear-gradient(to right, #00F5D4, #0077FF); /* Neon Teal to Electric Blue */
-    padding: 5rem 0;
+
+  .icon {
+    max-width: 100px;
   }
-  
-  section.bg-gradient-to-r h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #1B1B3A; /* Deep Navy */
-  }
-  
-  section.bg-gradient-to-r p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    color: #1B1B3A; /* Deep Navy */
-  }
-  
-  section.bg-gradient-to-r a {
-    background-color: #FFB703; /* Warm Yellow */
-    color: #1e3a8a; /* Electric Blue */
-    padding: 1rem 2rem;
-    border-radius: 9999px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  section.bg-gradient-to-r a:hover {
-    background-color: #fef3c7; /* Light Yellow */
-    transition: background-color 0.3s;
-  }
-  
-  /* Embedded Spline Design */
-  section.bg-gradient-to-r iframe {
-    box-shadow: none;
-    border: none;
-    width: 100%;
-    max-width: 1200px;
-    height: 600px;
-    border-radius: 8px;
-  }
-  
-  /* Upcoming Events Section */
-  section.py-20 {
-    padding: 4rem 0;
-    background-color: #ffffff;
-  }
-  
-  section.py-20 h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #1B1B3A; /* Deep Navy */
-    margin-bottom: 2rem;
-  }
-  
-  section.py-20 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2rem;
-  }
-  
-  section.py-20 .bg-white {
-    background-color: #ffffff;
+
+  .landing {
+    /* background: linear-gradient(to right,  #5eead4, #93c5fd); */
+    background-color: aliceblue;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+
+  .landing h1 {
+    color: black;
   }
   
-  section.py-20 .bg-white img {
+  .landing a {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgb(253 224 71);
+    color: rgb(37 99 235);
+    border-radius: 9999px;
+    padding: 12px 24px 12px 24px;
+  }
+
+  .landing a:hover {
+    background-color: #FFEE8C;
+  }
+
+  .events {
+    background-color: aliceblue;
+    display: block;
+    padding: 80px;
+  }
+
+  .card {
+    padding: 50px;
+    background-color: white;
+  }
+
+  .card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  section.py-20 .bg-white h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #0077FF; /* Electric Blue */
-  }
-  
-  section.py-20 .bg-white p {
-    margin-top: 1rem;
-    color: #1B1B3A; /* Deep Navy */
-  }
-  
-  section.py-20 .bg-white a {
-    color: #00F5D4; /* Neon Teal */
-    margin-top: 1rem;
-    display: inline-block;
-    font-weight: bold;
-  }
-  
-  section.py-20 .bg-white a:hover {
-    text-decoration: underline;
   }
   
   /* Footer */
   footer {
-    background: linear-gradient(to right, #00F5D4, #0077FF); /* Neon Teal to Electric Blue */
+    background: linear-gradient(to right,  #5eead4, #93c5fd);
     color: #ffffff;
     padding: 2rem 0;
     text-align: center;

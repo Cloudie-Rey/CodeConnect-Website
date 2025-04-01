@@ -1,100 +1,139 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f7fafc;
-    color: #2d3748;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Navbar Styles */
-  nav {
-    background: linear-gradient(to right,  #5eead4, #93c5fd);
-    padding: 1rem;
-  }
-  
-  nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-  }
-  
-  nav a:hover {
-    color: #FFB703; /* Warm Yellow */
-    transition: color 0.3s;
-  }
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7fafc;
+  color: #2d3748;
+  margin: 0;
+  padding: 0;
+}
 
-  .icon {
-    max-width: 100px;
-  }
+/* Navbar Styles */
+nav {
+  background: linear-gradient(to right,  #5eead4, #93c5fd);
+  padding-right: 25px;
+}
 
-  .landing {
-    /* background: linear-gradient(to right,  #5eead4, #93c5fd); */
-    background-color: aliceblue;
-    padding: 1.5rem;
-    color: black;
-  }
+nav section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .landing h1 {
-    color: black;
-  }
-  
-  .landing a {
-    /* font-family: "Roboto", sans-serif; */
-    font-weight: 700;
-    text-decoration: none;
-    background-color: rgb(253 224 71);
-    color: rgb(37 99 235);
-    border-radius: 9999px;
-    padding: 12px 24px 12px 24px;
-  }
+.links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+}
 
-  .landing a:hover {
-    background-color: #FFEE8C;
-  }
+.links a:hover {
+  color: #FFB703; /* Warm Yellow */
+  transition: color 0.3s;
+}
 
-  .events {
-    background-color: aliceblue;
-    display: block;
-    padding: 80px;
-  }
+.home a {
+  font-size: x-large;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+}
 
-  .card {
-    padding: 50px;
-    background-color: white;
-  }
+.icon {
+  max-width: 100px;
+}
 
-  .card img {
-    width: 100%;
-  }
-  
-  /* Footer */
-  footer {
-    background: linear-gradient(to right,  #5eead4, #93c5fd);
-    color: #ffffff;
-    padding: 2rem 0;
-    text-align: center;
-  }
-  
-  footer p {
-    margin-bottom: 1rem;
-  }
-  
-  footer .space-x-4 a {
-    color: #ffffff;
-    margin: 0 10px;
-    font-size: 1.5rem;
-  }
-  
-  footer .space-x-4 a:hover {
-    color: #FFB703; /* Warm Yellow */
-    transition: color 0.3s;
-  }
-  
+.landing {
+  /* background: linear-gradient(to right,  #5eead4, #93c5fd); */
+  background-image: linear-gradient(to left,  #5eead4, #93c5fd);
+  padding: 50px;
+  color: white;
+}
+
+.landing p {
+  margin-bottom: 40px;
+}
+
+.landing a {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 700;
+  text-decoration: none;
+  background-color: rgb(253 224 71);
+  color: rgb(37 99 235);
+  border-radius: 9999px;
+  padding: 12px 24px 12px 24px;
+}
+
+.landing a:hover {
+  background-color: #FFEE8C;
+}
+
+.events {
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.events h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.events section {
+  display: flex;
+}
+
+.card {
+  padding: 25px;
+  width: 1000px;
+  background-color: white;
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 10rem;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.card a {
+  color: rgb(20, 184, 166);
+  text-decoration: none;
+}
+.card a:hover {
+  color: #5eead4;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right,  #5eead4, #93c5fd);
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer .space-x-4 a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+footer .space-x-4 a:hover {
+  color: #FFB703; /* Warm Yellow */
+  transition: color 0.3s;
+}
